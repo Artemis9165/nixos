@@ -6,6 +6,7 @@
     ];
     programs = {
 	home-manager.enable = true;
+	kitty.enable = true;
 	bash.enable = true;
     };
 }
