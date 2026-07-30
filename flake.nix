@@ -5,6 +5,10 @@
 	    url = "github:nix-community/home-manager";
 	    inputs.nixpkgs.follows = "nixpkgs";
 	};
+	dms-plugin-registry = {
+	    url = "github:AvengeMedia/dms-plugin-registry";
+	    inputs.nixpkgs.follows = "nixpkgs";
+	};
     };
     outputs = inputs@{ self, nixpkgs, home-manager, ... }: {
 	nixosConfigurations.stylinx = nixpkgs.lib.nixosSystem {
