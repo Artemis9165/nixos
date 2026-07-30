@@ -1,8 +1,9 @@
-{ inputs, ... }:
+{ ... }:
 
 {
     imports = [
-	(inputs.self + "/modules/home/Git.nix")
+    	../common/default.nix
+	./config/Git.nix
 	./packages.nix
     ];
     home = {
