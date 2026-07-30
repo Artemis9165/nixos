@@ -2,8 +2,7 @@
 
 {
     imports = [
-
+	(inputs.self + "/modules/home/Starship.nix")
     ];
-    programs.starship.enable = true;
 }
 
