@@ -9,5 +9,7 @@
 	home-manager.enable = true;
 	bash.enable = true;
     };
+    networking.networkmanager.enable = true;
+    time.timeZone = "America/New_York";
 }
 
