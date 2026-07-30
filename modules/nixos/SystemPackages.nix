@@ -5,5 +5,6 @@
 	vim
 	kitty
 	librewolf
+	keepassxc
     ];
 }
