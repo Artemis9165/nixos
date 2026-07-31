@@ -6,7 +6,7 @@
     plugins = with pkgs.tmuxPlugins; [
       onedark-theme
     ];
-    extraConfigBeforePlugins = ''
+    extraConfig = ''
       set -g default-terminal "tmux-256color"
       set -g mouse on
       set -g set-clipboard on
