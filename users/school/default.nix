@@ -3,7 +3,7 @@
 let
   nixos_folder = ../..;
   modules = "${nixos_folder}/modules";
-  dotfiles = "${nixos_folder}/users/coding/dotfiles";
+  dotfiles = "${nixos_folder}/users/school/dotfiles";
 
   create_symlink = path: config.lib.file.mkOutOfStoreSymlink path;
   configs = {
