@@ -5,7 +5,6 @@
 	ripgrep
 	fd
 	fzf
-	tree-sitter-cli
 	nodejs
 	nil
 	nixpkgs-fmt
