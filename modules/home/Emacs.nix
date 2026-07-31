@@ -2,14 +2,11 @@
 
 {
   home.packages = with pkgs; [
+    emacs-pgtk
     enchant
     hunspell
     hunspellDicts.en-us
     poppler
     texliveFull
   ];
-  programs.emacs = {
-    enable = true;
-    package = pkgs.emacs-pgtk;
-  };
 }
