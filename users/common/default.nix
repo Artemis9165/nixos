@@ -4,7 +4,7 @@ let
     dotfiles = (inputs.self + "/users/common/dotfiles");
     create_symlink = path: config.lib.file.mkOutOfStoreSymlink path;
     configs = {
-        niri = "niri"
+        niri = "niri";
     };
 in
 
