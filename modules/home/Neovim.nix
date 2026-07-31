@@ -8,6 +8,7 @@
 	nodejs
 	nil
 	nixpkgs-fmt
+    gcc
     ];
     programs.neovim = {
 	enable = true;

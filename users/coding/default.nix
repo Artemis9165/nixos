@@ -4,7 +4,7 @@ let
     dotfiles = (inputs.self + "/users/coding/dotfiles");
     create_symlink = path: config.lib.file.mkOutOfStoreSymlink path;
     configs = {
-	nvim = "nvim";
+	    nvim = "nvim";
     };
 in
 
@@ -22,7 +22,7 @@ in
 	stateVersion = "26.05";
     };
     xdg.configFile = builtins.mapAttrs (name: subpath: {
-	source = create_symlink "${dotfiles}/${subpath}";
-	recursive = true;
+	    source = create_symlink "${dotfiles}/${subpath}";
+	    recursive = true;
     }) configs;
 }
