@@ -8,13 +8,13 @@ let
   create_symlink = path: config.lib.file.mkOutOfStoreSymlink path;
   configs = {
     nvim = "nvim";
-    tmux = "tmux";
   };
 in
 
 {
   imports = [
     "${modules}/home/Neovim.nix"
+    "${modules}/home/Tmux.nix"
     ../common/default.nix
     ./packages.nix
     ./config/Git.nix
