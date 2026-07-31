@@ -3,8 +3,9 @@
 {
     imports = [
     	../common/default.nix
-	./config/Git.nix
 	./packages.nix
+	./config/Git.nix
+	./config/Starship.nix
     ];
     home = {
 	username = "coding";
