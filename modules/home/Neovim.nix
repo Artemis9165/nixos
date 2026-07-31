@@ -12,6 +12,9 @@
     unzip
     curl
     wget
+    rustc
+    cargo
+    rust-analyzer
     ];
     programs.neovim = {
 	enable = true;
