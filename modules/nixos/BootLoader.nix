@@ -6,7 +6,7 @@
 	    enable = true;
 	    device = "nodev";
 	    efiSupport = true;
-	    gxmodeEfi = "2560x1440";
+	    gfxmodeEfi = "2560x1440";
 	    gfxpayloadEfi = "keep";
 	    theme = (inputs.self + "/themes/darkmatter");
 	};
