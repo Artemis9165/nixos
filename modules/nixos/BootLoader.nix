@@ -1,4 +1,4 @@
-{ config, ... }:
+{ inputs, ... }:
 
 {
   boot.loader = {
@@ -8,7 +8,7 @@
       efiSupport = true;
       gfxmodeEfi = "2560x1440";
       gfxpayloadEfi = "keep";
-      theme = "${config.home.homeDirectory}/nixos/themes/darkmatter";
+      theme = (inputs.self + "/themes/darkmatter");
     };
     efi.canTouchEfiVariables = true;
   };

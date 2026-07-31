@@ -1,7 +1,7 @@
 { config, ... }:
 
 let
-  nixos_folder = ../../nixos;
+  nixos_folder = ../..;
   modules = "${nixos_folder}/modules";
   dotfiles = "${nixos_folder}/users/coding/dotfiles";
 

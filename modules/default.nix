@@ -10,4 +10,5 @@
   ];
   networking.networkmanager.enable = true;
   time.timeZone = "America/New_York";
+  nix.settings.experimental-features = [ "nix-command" "flakes" ];
 }
