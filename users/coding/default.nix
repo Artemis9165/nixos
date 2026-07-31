@@ -1,10 +1,10 @@
 { config, inputs, ... }:
 
 let
-    dotfiles = (inputs.self + "/users/coding/dotfiles");
+    dotfiles = "${config.home.homeDirectory}/nixos/users/coding/dotfiles";
     create_symlink = path: config.lib.file.mkOutOfStoreSymlink path;
     configs = {
-	    nvim = "nvim";
+    	nvim = "nvim";
     };
 in
 
@@ -23,6 +23,5 @@ in
     };
     xdg.configFile = builtins.mapAttrs (name: subpath: {
 	    source = create_symlink "${dotfiles}/${subpath}";
-	    recursive = true;
     }) configs;
 }
