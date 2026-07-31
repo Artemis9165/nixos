@@ -1,4 +1,4 @@
-{ inputs, ... }:
+{ config, inputs, ... }:
 
 let
     dotfiles = (inputs.self + "/users/common/dotfiles");
