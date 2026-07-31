@@ -2,6 +2,6 @@
 
 {
   programs.starship = {
-    presets = [ "pastel-powerline" ];
+    presets = [ "jetpack" ];
   };
 }
