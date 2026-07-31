@@ -1,7 +1,7 @@
 { config, inputs, ... }:
 
 let
-    dotfiles = (inputs.self + "/users/coding/dotfiles";
+    dotfiles = (inputs.self + "/users/coding/dotfiles");
     create_symlink = path: config.lib.file.mkOutOfStoreSymlink path;
     configs = {
 	nvim = "nvim";
