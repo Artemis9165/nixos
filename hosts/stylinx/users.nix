@@ -1,4 +1,8 @@
-{ config, ... }:
+{ ... }:
+
+let
+  usersFolder = ../../users;
+in
 
 {
   users.users.coding = {
@@ -6,5 +10,5 @@
     extraGroups = [ "wheel" "networkmanager" ];
   };
 
-  home-manager.users.coding = import "${config.home.homeDirectory}/nixos/users/coding";
+  home-manager.users.coding = import (usersFolder + "/coding");
 }
