@@ -1,8 +1,8 @@
 { pkgs, ... }:
 
 {
-    home.packages = with pkgs; [
-	git
-	gh
-    ];
+  home.packages = with pkgs; [
+    git
+    gh
+  ];
 }

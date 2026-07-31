@@ -1,7 +1,7 @@
 { ... }:
 
 {
-    programs.starship = {
-	presets = [ "pastel-powerline" ];
-    };
+  programs.starship = {
+    presets = [ "pastel-powerline" ];
+  };
 }

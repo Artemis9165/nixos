@@ -1,18 +1,18 @@
 { ... }:
 
 {
-    services.keyd = {
-	enable = true;
-	keyboards = {
-	    default = {
-		ids = [ "*" ];
-		settings = {
-		    main = {
-			capslock = "overload(control, esc)";
-			esc = "capslock";
-		    };
-		};
-	    };
-	};
+  services.keyd = {
+    enable = true;
+    keyboards = {
+      default = {
+        ids = [ "*" ];
+        settings = {
+          main = {
+            capslock = "overload(control, esc)";
+            esc = "capslock";
+          };
+        };
+      };
     };
+  };
 }

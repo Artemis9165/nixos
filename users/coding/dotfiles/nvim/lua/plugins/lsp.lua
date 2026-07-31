@@ -17,7 +17,13 @@ return {
     config = function()
         require("conform").setup({
             formatters_by_ft = {
-            }
+                lua = { "stylua" },
+                nix = { "nixpkgs_fmt" },
+            },
+            format_on_save = {
+                timeout_ms = 500,
+                lsp_fallback = true,
+            },
         })
         local cmp = require('cmp')
         local cmp_lsp = require("cmp_nvim_lsp")

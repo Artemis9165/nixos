@@ -1,10 +1,10 @@
 { pkgs, ... }:
 
 {
-    environment.systemPackages = with pkgs; [
-	vim
-	kitty
-	librewolf
-	keepassxc
-    ];
+  environment.systemPackages = with pkgs; [
+    vim
+    kitty
+    librewolf
+    keepassxc
+  ];
 }

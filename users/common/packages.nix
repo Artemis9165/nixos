@@ -1,10 +1,10 @@
 { pkgs, ... }:
 
 {
-    home.packages = with pkgs; [
-    	kitty
-        grim
-        slurp
-        wl-clipboard
-    ];
+  home.packages = with pkgs; [
+    kitty
+    grim
+    slurp
+    wl-clipboard
+  ];
 }

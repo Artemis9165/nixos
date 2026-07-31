@@ -1,13 +1,11 @@
 { pkgs, ... }:
 
 {
-    home.packages = with pkgs; [
-	ripgrep
-	fd
-	fzf
-	nodejs
-	nil
-	nixpkgs-fmt
+  home.packages = with pkgs; [
+    ripgrep
+    fd
+    fzf
+    nodejs
     gcc
     unzip
     curl
@@ -15,11 +13,11 @@
     rustc
     cargo
     rust-analyzer
-    ];
-    programs.neovim = {
-	enable = true;
-	viAlias = true;
-	vimAlias = true;
-	sideloadInitLua = true;
-    };
+  ];
+  programs.neovim = {
+    enable = true;
+    viAlias = true;
+    vimAlias = true;
+    sideloadInitLua = true;
+  };
 }
