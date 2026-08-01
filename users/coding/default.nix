@@ -30,4 +30,5 @@ in
       source = create_symlink "${dotfiles}/${subpath}";
     })
     configs;
+  programs.direnv.enable = true;
 }
