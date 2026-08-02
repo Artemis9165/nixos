@@ -7,5 +7,6 @@
     kitty
     librewolf
     keepassxc
+    brightnessctl
   ];
 }
