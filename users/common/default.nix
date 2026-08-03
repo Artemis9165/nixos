@@ -16,6 +16,7 @@ in
   imports = [
     ./packages.nix
     "${modules}/home/Starship.nix"
+    "${modules}/nixos/LocalSend.nix"
   ];
   programs = {
     home-manager.enable = true;
