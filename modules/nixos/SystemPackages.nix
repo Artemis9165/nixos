@@ -10,6 +10,5 @@
     keepassxc
     brightnessctl
     fetch
-    power-profiles-daemon
   ];
 }
