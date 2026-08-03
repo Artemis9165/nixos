@@ -8,6 +8,7 @@ let
   configs = {
     niri = "niri";
     kitty = "kitty";
+    fetch = "fetch";
   };
 in
 
