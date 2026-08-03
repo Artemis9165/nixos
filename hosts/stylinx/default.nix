@@ -9,8 +9,9 @@ in
     ./hardware-configuration.nix
     "${modules}/default.nix"
     "${modules}/nixos/Niri.nix"
+    "${modules}/nixos/TLP.nix"
     ./users.nix
   ];
-  networking.hostName = "stylinx";
+  networking.hostName = "Stylinx-Neptune";
   system.stateVersion = "26.05";
 }

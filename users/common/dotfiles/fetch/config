@@ -16,25 +16,9 @@ gpu
 memory
 swap
 disk
-disk=/home
 ip
 battery
 locale
 colors
 
-label_color=magenta
-separator=─
-shading_mode=blocks
-shading=.,-~:;=!*#$@
-box=0
-
-logo_outer=magenta
-logo_inner=white
-
-3d
-light=top-left
-spin=xy
-speed=1.0
-size=1.0
-depth=1.0
-height=36
+label_color = green

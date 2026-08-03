@@ -2,12 +2,14 @@
 
 {
   environment.systemPackages = with pkgs; [
-    vim
+    neovim
     git
     kitty
+    imagemagick
     librewolf
     keepassxc
     brightnessctl
     fetch
+    power-profiles-daemon
   ];
 }
