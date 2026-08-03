@@ -15,6 +15,7 @@ in
   imports = [
     ./packages.nix
     "${modules}/home/Starship.nix"
+    "${modules}/home/Fetch.nix"
   ];
   programs = {
     home-manager.enable = true;
