@@ -3,6 +3,7 @@
 {
   imports = [
     ./nixos/BootLoader.nix
+    ./nixos/Bluetooth.nix
     ./nixos/SystemPackages.nix
     ./nixos/HomeManager.nix
     ./nixos/Keyd.nix
