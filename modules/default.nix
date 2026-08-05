@@ -1,5 +1,3 @@
-{ ... }:
-
 {
   imports = [
     ./nixos/BootLoader.nix

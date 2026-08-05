@@ -1,5 +1,3 @@
-{ ... }:
-
 let
   modules = ../../modules;
 in

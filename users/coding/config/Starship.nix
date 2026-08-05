@@ -1,5 +1,3 @@
-{ ... }:
-
 {
   programs.starship = {
     presets = [ "jetpack" ];
