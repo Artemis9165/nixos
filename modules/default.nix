@@ -7,6 +7,7 @@
     ./nixos/Keyd.nix
     ./nixos/Fonts.nix
     ./nixos/LocalSend.nix
+    ./nixos/Radicale.nix
   ];
   networking.networkmanager.enable = true;
   time.timeZone = "America/New_York";
